@@ -5,16 +5,14 @@ As with most of the software for Pine64 devices, this is a purely community-base
 
 ### Notable components
 
+* The main Debian image is generated and released using this repository: https://github.com/PNDeb/pinenote-debian-image (make sure to check with the Pine64 PineNote chat which release to flash - sometimes one of the CI-builds is more appropriate).
 * The kernel used for this Debian image is maintained here: https://github.com/m-weigand/linux
-* [...todo...] 
+* A GNOME extension is maintained for easy access to some PN-specific functionality: https://github.com/PNDeb/pinenote-gnome-extension
+* A rust-based dbus daemon is used to control some of the PN-related functionality (also used by the GNOME extension): https://github.com/PNDeb/pinenote_dbus_service
+* Efforts are made to move PN-specific configuration into Debian packages: https://github.com/PNDeb/pinenote-tweaks
+* Some work was done to implement dithering/Y4 conversion using the rk356x-included RGA hardware. Test code can be found here: https://github.com/PNDeb/rga-v4l2-demo
+  
+A few packages were backported/packaged to Debian bookworm:
 
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+* libinput: https://github.com/PNDeb/libinput_backport
+* uMTP-reponder (used for USB gadget MTP mode) https://github.com/PNDeb/uMTP-Responder-debian
