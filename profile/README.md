@@ -1,7 +1,7 @@
 ## Pine64 PineNote Debian
 
 This github organization holds various repositories used to generate Debian images for the Pine64 PineNote (https://wiki.pine64.org/wiki/PineNote).
-As with most of the software for Pine64 devices, this is a purely community-based effort. Please also note that, as of Jan. 2024, the PineNote was only released as a limited early-developer device.
+As with most of the software for Pine64 devices, this is a purely community-based effort. Please also note that, as of Jan. 2024, the PineNote was only released as a limited early-developer device, but in Oct. 2024 a *Community Edition* of the PineNote was announced (https://pine64.com/product/pinenote-community-edition-coming-soon/).
 
 ### Notable components
 
